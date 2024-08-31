@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica dos Pés</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <meta name="description" content="Nossa compromisso é oferecer tratamentos atualizados e com resultados reais. Saúde e bem estar!" >
+    <link rel="stylesheet" type="text/css" href="/css/main.css" ><!-- principal -->
+</head>
+<body>
+    <header>
+        <nav> <!-- nav -->
+            <div class="flexnav"> <!--flex-->
+                <div class="imgnav">
+                    <img src="/img/logo.png" alt="Clinica dos Pés - Logo" width="100%" >
+                </div>
+                <div class="navegacao">
+                    <ul class="lista"> <!--lista-->
+                    <li><a href="/pag/index.html"><img class="imghome" src="/img/Icons_Base/home.svg" width="1%"></a></li>      
+                    <div class="droplist"> <!--drop-->
+                        <li>Tratamentos</li>
+                        <div class="dropcontent">
+                            <a href="/Other/tratamentos_podologia.html">Podologia&emsp;</a>
+                            <a href="/Other/tratamentos_limpeza_facial.html">Facial</a>
+                            <a href="/Other/tratamentos_depilacao_com_cera.html">Depilação</a>
+                        </div>
+                        </div> <!--drop fim-->
+                        <li><a href="#chamadamaps">Onde Estamos</button></li>
+                        <li><a href="#chamadaavaliacao">Depoimento</a></li>
+                        <li><a href="#chamadaartigos">Dicas</a></li>
+                        <li><a href="/Login/login.html">Sua Conta</a></li>
+                        <li><a href="/Login/cadastro.html">Cadastre-se</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main> <!--4/4 img/txt carrossel--cadastro-->
+    <div>
+        <div class="content">
+                <div class="slides">
+                    <input class="input" type="radio" name="slide" id="slide1" checked>
+                    <input class="input" type="radio" name="slide" id="slide2">
+                    <input class="input" type="radio" name="slide" id="slide3">
+                    <input class="input" type="radio" name="slide" id="slide4">
+                    <input class="input" type="radio" name="slide" id="slide5">
+                    <div class="slide s1">
+                        <img src="/img/carossel/nossas_instalações.jpg" alt="Instalacoes">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/carossel/onicoorteses.jpg" alt="Onicoorteses">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/carossel/tratamento_para_calos.jpg" alt="Tratamentos para Calos">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/carossel/hidratação_para_os_pes.jpg" alt="Hidratacao para os Pes">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/img/carossel/fototerapia_(laser).jpg" alt="Fototerapia">
+                    </div>
+            </div>
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+            </div>
+        </div>
+
+       <!--LadoaLado-2--> 
+
+       <div class="content2">
+        <div class="contatolado">
+            <div class="gradetitulo">
+                <p>Agende sua<br>
+                Avaliação Gratuita</p>
+            </div>
+            <div class="grade">
+                <form method="POST" action="/db/agenda.php" autocomplete="on">
+                            <label class="inputtextlabel" for=""></label>
+                    Nome:   <input class="inputtext" type="text" name="nome"  placeholder="nome" maxlength="50" required ><br><br>
+                            <label class="inputtextlabel" for=""></label>
+                    Celular:<input class="inputtext" type="tel" name="celular" placeholder="61-8806678" maxlength="15" required ><br><br>
+                            <label class="inputtextlabel" for=""></label>
+                    E-mail: <input class="inputtext" type="email" name="email" placeholder="mail@mail.com" maxlength="50" required ><br>
+                    <p>
+                    <input class="envio_agendamento" type="submit" value="Agendar" >
+                    </p>
+                    </form>
+            </div>
+    </div>
+    </main>
+
+    <section> <!--cards-->
+        <div>
+        <div class="flexcard">    
+                <div class="cards">
+                        <img src="/img/carossel/higienização_Completa(Card1).jpg" alt="higienização Completa" style="width:100%">
+                    <div class="card">
+                        <h4><b>One Polo</b></h4> 
+                        <p class="textoartigo">Os pés nos sustentam todos os dias. São muitas as atividades que exigem bastante deles, Sem os cuidados adequados,
+                            não é raro ter que lidar com incômodos como bolhas, frieiras e outros problemas que podem prejudicar sua qualidade
+                            de vida e atrapalhar a execução de várias atividades diárias.</p> 
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="/img/carossel/spa-dos_pes(Card2).jpg" alt="spa dos Pés" style="width:100%">
+                <div class="card">
+                    <h4><b>Spa dos Pés</b></h4> 
+                    <p class="textoartigo">O spa dos pés é uma junção de procedimentos que visam promover o bem-estar e o alívio de tensões. Consiste em imergir os pés em água morna, esfoliar e hidratar, acompanhando massagens relaxantes.</p> 
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/img/carossel/reconstituição_da_unha(Card3).jpg" alt="reconstituição da unha" style="width:100%">
+            <div class="card">
+                <h4><b>Reconstrução de Unha</b></h4> 
+                <p class="textoartigo">A Reconstrução de Unhas é uma técnica estética mediante a qual se realiza o alongamento ou cobertura das unhas (blindagem), graças a materiais específicos em gel ou em acrílico. Portanto, este é um tratamento que não deve ser confundido com unhas postiças!</p> 
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="chamadaartigos" class="artigos"> <!--artigos-->
+        <div class="txtartigos">
+            <img src="/img/icone.png" >
+            <p>Dicas Da Clínica dos Pés</p>
+        </div>
+        <div>
+            <div class="flexartigos">    
+                <div class="cardartigos">
+                        <img src="/img/artigos/higiene_dos_pes.jpg" alt="higienização Completa" style="width:100%">
+                <div class="cardartigotxt">
+                        <h4><b>Higiene dos pés em dia:</b></h4> 
+                        <p class="textoartigo">Manter os pés higienizados é fundamental para evitar chulé, frieiras e micoses.
+                            Assim, lave-os diariamente com água e sabão ou sabonete e, na sequência,
+                            enxugue-os muito bem – inclusive entre os dedos...</p>
+                        <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/hidratante_para_pes.jpg" alt="spa dos Pés" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Hidratante para os pés:</b></h4> 
+                    <p class="textoartigo">Pés ressecados correm risco de rachar – principalmente nos calcanhares. 
+                        A saída é aplicar um hidratante específico para a região, de preferência
+                         um creme hidratante que, além d... </p>
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="cardartigos">
+                <img src="/img/artigos/esfoliante_para_pes.jpg" alt="spa dos Pés" style="width:100%">
+            <div class="cardartigotxt">
+                <h4><b>Esfoliação semanal:</b></h4> 
+                <p class="textoartigo">Para prevenir o ressecamento e as rachaduras não bastam hidratar, é preciso, também,
+                    esfoliar. Essa etapa deve ser realizada uma vez por semana para remover as células mortas e, as... </p>
+                <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+            </div>
+            </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/desodorante_dos_pes.jfif" alt="reconstituição da unha" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Desodorante para os pés:</b></h4> 
+                    <p class="textoartigo">Os segredos para prevenir o chulé são caprichar na higiene, ficar descalço sempre que possível
+                        e substituir a meia sintética pela de algodão, que absorve melhor a umidade e pr... </p> 
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/cuidados-comunhas.jpg" alt="reconstituição da unha" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Como cuidar das unhas:</b></h4> 
+                    <p class="textoartigo">Deixá-las bem cortadas faz parte da higienização, pois o acúmulo de sujeira pode provocar infecções
+                        ou inflamações. Mas, para evitar que encravem, o ideal é não cortar a unha at... </p>
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+        </div>
+        <div> <!--artigos2-->
+            <div class="flexartigos2">    
+                <div class="cardartigos">
+                        <img src="/img/artigos/calçados_adequados.jpg" alt="higienização Completa" style="width:100%">
+                <div class="cardartigotxt">
+                        <h4><b>Calçados adequados:</b></h4> 
+                        <p class="textoartigo">Opte por modelos que facilitem a entrada de ar e permitam que os pés respirem.
+                            Os abertos são os mais indicados, enquanto os sapatos de plástico e borracha, assim como as sapatilha... </p>
+                        <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/massagem_facial.jpg" alt="spa dos Pés" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Massagem facial:</b></h4> 
+                    <p class="textoartigo">Ainda durante o ritual noturno, finalize com o antissinais noite indicado para a sua faixa etária.
+                        E aproveite a etapa para realizar uma massagem facial. Com movimentos simples, suaves, de dentro
+                        para fora, é possível estimular a circulação sanguínea do rosto e a oxigenação celular, além de 
+                       otimizar a penetração dos cosméticos.</p>
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="cardartigos">
+                <img src="/img/artigos/mascaras-faciais.webp" alt="spa dos Pés" style="width:100%">
+            <div class="cardartigotxt">
+                <h4><b>Máscaras faciais:</b></h4> 
+                <p class="textoartigo">As máscaras faciais existem para diversas funções e é isso que definirá a frequência delas
+                    na sua rotina. Produtos mais agressivos para a pele, como as que prometem detox, por exemplo,
+                    devem ser usados apenas uma vez por mês. Já as hidratantes e calmantes podem ser feitas uma vez
+                    por semana, recomenda a dermatologista.  </p>
+                <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+            </div>
+            </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/esfoliacao-facial.png" alt="reconstituição da unha" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Esfoliação Facial:</b></h4> 
+                    <p class="textoartigo">Mais um momento de autocuidado para entrar na rotina, a esfoliação facial ajuda
+                        a renovar a pele e pode ser feita de uma a duas vezes por semana. O processo deve
+                        entrar no passo a passo após a limpeza e antes do tônico, caso essa etapa faça parte do seu ritual diário. </p> 
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+                <div class="cardartigos">
+                    <img src="/img/artigos/hidrataçao-rosto.jpg" alt="reconstituição da unha" style="width:100%">
+                <div class="cardartigotxt">
+                    <h4><b>Hidratação:</b></h4> 
+                    <p class="textoartigo">O ritual noturno não precisa ser igual ao da manhã, frisa a dermatologista. Nesse momento
+                        de cuidado com a pele antes de dormir, ela fala sobre dar atenção também a outras regiões,
+                        como pescoço e colo. “Essas áreas envelhecem assim como o rosto e acabamos nos esquecendo delas.
+                        Para quem não tem um produto específico para cada uma, pode usar o mesmo do rosto.”</p>
+                    <p><a href="/Other/dicas_da_clinica.html">Saiba Mais</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="chamadaavaliacao"> <!--avaliações/carosel-->
+        <div class="txtavaliacoes">
+            <img src="/img/icone.png" >
+            <p>Depoimento Dos Clientes</p>
+        </div>
+        <div class="flexcardava">    
+                <div class="cardsava">
+                        <img src="/img/avaliacoes/Fabiana_Miranda.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                        <h4><b>Fabiana Miranda</b></h4> 
+                        <p class="textoartigo">Minha experiência foi maravilhosa! Do agendamento ao procedimento foi impecável. Bem feito e orientado. Parabéns a toda equipe! Recomendo.</p> 
+                </div>
+                </div>
+                <div class="cardsava">
+                    <img src="/img/avaliacoes/Gleyber_Alves.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                    <h4><b>Gleyber Alves</b></h4> 
+                    <p class="textoartigo">O melhor achado!!! Profissionais super capacitados,  atendimento diferenciado e ótimos preços. Indico de olhos fechados,  pois são os melhores!!!👏👏</p> 
+                </div>
+            </div>
+            <div class="cardsava">
+                <img src="/img/avaliacoes/Lucinede_Ribeiro.png" alt="Cliente" style="width:20%">
+            <div class="cardava">
+                <h4><b>Lucinede Ribeiro</b></h4> 
+                <p class="textoartigo">A técnica que cuida de mim é a Palloma, ela é um doce de pessoa: delicadissima e super atenciosa, preocupada com o bem-estar da gente.
+                  Recomendo!</p> 
+            </div>
+            </div>
+                <div class="cardsava">
+                    <img src="/img/avaliacoes/Ricardo_Luiz_Vale.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                    <h4><b>Ricardo Luiz Vale</b></h4> 
+                    <p class="textoartigo">Super recomendo, profissionais bem capacitados, atendimento nota 10, prestam serviços com excelencia e só tenho elogios.</p> 
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="chamadamaps" class="mapsall"> <!--maps-->
+        <div class="txtmaps">
+            <img src="/img/icone.png" >
+            <p>Nossa Clínica Perto de Você</p>
+        </div>
+        <div class="mapscenter">
+            <div class="mapslocal">
+                <p></p>
+            </div>
+            <div class="mapsfix">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.569080118727!2d-47.64736022655451!3d-15.614655741329518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a13a46d047e09%3A0xbfdf393ad9785b81!2zQ2zDrW5pY2EgZG9zIFDDqXMgREY!5e0!3m2!1spt-BR!2sbr!4v1663609745404!5m2!1spt-BR!2sbr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Mapa"></iframe>
+                <div class="mapstxt">
+                        <p id="textalt"><b>Clínica dos Pés</b></p> 
+                        <p class="txtrua">Quadra 01 Conjunto G lote 20 Loja B, Setor Residencial Leste - Buritís I Q 1 Cl Conjunto</p>
+                        <p><img src="/img/Icons_Base/telefone.svg" width="2%">&emsp;<a class="linkmap" href="Tel:(61)3389-8829" >(61) 3389-8829</a><a class="linkmap" href="https://api.whatsapp.com/send?phone=5561992103310&text=Seja%20Bem%20Vindo%20a%20Cl%C3%ADnica%20dos%20P%C3%A9s%2C%20sua%20sa%C3%BAde%20%C3%A9%20nossa%20prioridade!" >&emsp;&emsp;&emsp;&emsp;<img src="/img/Icons_Base/wathssap.svg" width="4%">(61) 99210-3310</a></p>
+                        <p><img src="/img/Icons_Base/email.svg" width="2%">&emsp;<a  class="linkmap" href="mailto:clinicadospe@hotmail.com"> clinicadospe@hotmail.com</a></p>
+                        <p>Horário de funcionamento:</p>
+                        <p class="txtrua">Segunda à Sexta: das 08h às 18h</p>
+                        <p class="txtrua">Sábado: das 08h às 17h</p>
+                        <p class="txtrua">Domingo: Fechado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer> <!-- footer -->
+        <div class="flexfooter">
+        <div class="imgfooter">
+            <img src="/img/logo.png" alt="Clinica dos Pés - Logo" width="100%" >
+        </div>
+       <div>
+            <p><b>Endereço:</b> Planaltina DF<br>
+            <b>CEP:</b> 73.412-123</p> 
+            <p><b>Sac:</b><br>
+            <a style="text-decoration: none; color: black;" href="mailto:clinicadospe@hotmail.com"> clinicadospe@hotmail.com</a></p>
+       </div>
+        <div>
+            <p><b>Horário de funcionamento:</b></p>
+            <p><b>Segunda à Sexta:</b> das 08h às 18h</p>
+            <p><b>Sábado:</b> das 08h às 17h</p>
+            <p><b>Domingo:</b> Fechado</p>
+        </div>
+        <div class="footerMapsInfo">
+            <p><b>Redes Sociais:</b></p>
+            <a href="https://pt-br.facebook.com/clinicadospesdf/"><img src="/img/Icons_Base/facebook.svg" width="10%"></a>
+            <a href="https://api.whatsapp.com/send?phone=5561992103310&text=Seja%20Bem%20Vindo%20a%20Cl%C3%ADnica%20dos%20P%C3%A9s%2C%20sua%20sa%C3%BAde%20%C3%A9%20nossa%20prioridade!"><img src="/img/Icons_Base/whatsapp-final.svg" width="10%" ></a>
+            <a href="https://www.instagram.com/clidospesdf/?hl=pt"><img src="/img/Icons_Base/instagram.svg" width="10%" ></a>
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica dos Pés</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <meta name="description" content="Nossa compromisso é oferecer tratamentos atualizados e com resultados reais. Saúde e bem estar!" >
+    <link rel="stylesheet" type="text/css" href="/css/main.css" ><!-- principal -->
+    <link rel="stylesheet" type="text/css" href="/css/login.css" ><!-- login -->
+</head>
+<body>
+    <header>
+        <nav> <!-- nav -->
+            <div class="flexnav"> <!--flex-->
+                <div class="imgnav">
+                    <img src="/img/logo.png" alt="Clinica dos Pés - Logo" width="100%" >
+                </div>
+                <div class="navegacao">
+                    <ul class="lista"> <!--lista-->
+                    <li><a href="/pag/index.html"><img class="imghome" src="/img/Icons_Base/home.svg" width="1%"></a></li>      
+                    <div class="droplist"> <!--drop-->
+                        <li>Tratamentos</li>
+                        <div class="dropcontent">
+                            <a href="/Other/tratamentos_podologia.html">Podologia&emsp;</a>
+                            <a href="/Other/tratamentos_limpeza_facial.html">Facial</a>
+                            <a href="/Other/tratamentos_depilacao_com_cera.html">Depilação</a>
+                        </div>
+                        </div> <!--drop fim-->
+                        <li><a href="#chamadamaps">Onde Estamos</button></li>
+                        <li><a href="#chamadaavaliacao">Depoimento</a></li>
+                        <li><a href="/pag/index.html#chamadaartigos">Dicas</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content-all">
+            <div class="content-logon" >   
+                <div class="organizacao">
+                    <div class="imgloginlogo">
+                        <img src="/img/logo.png" alt="logo" width="100%" >
+                      </div>      
+                  <!--LOGIN-->
+                  <div class="login">
+                    <form method="post" action="/DB/cadastro.php"> 
+                      <h1>Cadastro</h1>
+                      <p class="inputtext"> 
+                        <label for="name_logon">Nome:</label>
+                        <input type="text" name="nome"  placeholder="Seu Nome" required maxlength="50">
+                      </p>
+                      <p class="inputtext"> 
+                        <label for="tel_logon">Celular:</label>
+                        <input type="tel" name="celular" placeholder="61-8806-678" maxlength="15" required >
+                      </p>
+                      <p class="inputtext"> 
+                        <label for="email_logon">E-mail:</label>
+                        <input type="email" name="email" placeholder="mail@mail.com" maxlength="50" required >
+                      </p>
+                      <p class="inputtext"> 
+                        <label for="senha_logon">Senha:</label>
+                        <input type="password" name="senha" placeholder="Digite uma Senha" maxlength="20" required > 
+                      </p> 
+                      <p class="envio_logon"> 
+                        <input type="submit" value="Cadastre-se" > 
+                      </p>
+                      <p class="link">
+                        Já tem nossa conta?
+                        <a href="/Login/login.html">Faça Login</a>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div> 
+    </section>
+
+
+    <section id="chamadaavaliacao"> <!--avaliações/carosel-->
+        <div class="txtavaliacoes">
+            <img src="/img/icone.png" >
+            <p>Depoimento Dos Clientes</p>
+        </div>
+        <div class="flexcardava">    
+                <div class="cardsava">
+                        <img src="/img/avaliacoes/Fabiana_Miranda.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                        <h4><b>Fabiana Miranda</b></h4> 
+                        <p class="textoartigo">Minha experiência foi maravilhosa! Do agendamento ao procedimento foi impecável. Bem feito e orientado. Parabéns a toda equipe! Recomendo.</p> 
+                </div>
+                </div>
+                <div class="cardsava">
+                    <img src="/img/avaliacoes/Gleyber_Alves.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                    <h4><b>Gleyber Alves</b></h4> 
+                    <p class="textoartigo">O melhor achado!!! Profissionais super capacitados,  atendimento diferenciado e ótimos preços. Indico de olhos fechados,  pois são os melhores!!!👏👏</p> 
+                </div>
+            </div>
+            <div class="cardsava">
+                <img src="/img/avaliacoes/Lucinede_Ribeiro.png" alt="Cliente" style="width:20%">
+            <div class="cardava">
+                <h4><b>Lucinede Ribeiro</b></h4> 
+                <p class="textoartigo">A técnica que cuida de mim é a Palloma, ela é um doce de pessoa: delicadissima e super atenciosa, preocupada com o bem-estar da gente.
+                  Recomendo!</p> 
+            </div>
+            </div>
+                <div class="cardsava">
+                    <img src="/img/avaliacoes/Ricardo_Luiz_Vale.png" alt="Cliente" style="width:20%">
+                <div class="cardava">
+                    <h4><b>Ricardo Luiz Vale</b></h4> 
+                    <p class="textoartigo">Super recomendo, profissionais bem capacitados, atendimento nota 10, prestam serviços com excelencia e só tenho elogios.</p> 
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="chamadamaps" class="mapsall"> <!--maps-->
+        <div class="txtmaps">
+            <img src="/img/icone.png" >
+            <p>Nossa Clínica Perto de Você</p>
+        </div>
+        <div class="mapscenter">
+            <div class="mapslocal">
+                <p></p>
+            </div>
+            <div class="mapsfix">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.569080118727!2d-47.64736022655451!3d-15.614655741329518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a13a46d047e09%3A0xbfdf393ad9785b81!2zQ2zDrW5pY2EgZG9zIFDDqXMgREY!5e0!3m2!1spt-BR!2sbr!4v1663609745404!5m2!1spt-BR!2sbr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Mapa"></iframe>
+                <div class="mapstxt">
+                        <p id="textalt"><b>Clínica dos Pés</b></p> 
+                        <p class="txtrua">Quadra 01 Conjunto G lote 20 Loja B, Setor Residencial Leste - Buritís I Q 1 Cl Conjunto</p>
+                        <p><img src="/img/Icons_Base/telefone.svg" width="2%">&emsp;<a class="linkmap" href="Tel:(61)3389-8829" >(61) 3389-8829</a><a class="linkmap" href="https://api.whatsapp.com/send?phone=5561992103310&text=Seja%20Bem%20Vindo%20a%20Cl%C3%ADnica%20dos%20P%C3%A9s%2C%20sua%20sa%C3%BAde%20%C3%A9%20nossa%20prioridade!" >&emsp;&emsp;&emsp;&emsp;<img src="/img/Icons_Base/wathssap.svg" width="4%">(61) 99210-3310</a></p>
+                        <p><img src="/img/Icons_Base/email.svg" width="2%">&emsp;<a  class="linkmap" href="mailto:clinicadospe@hotmail.com"> clinicadospe@hotmail.com</a></p>
+                        <p>Horário de funcionamento:</p>
+                        <p class="txtrua">Segunda à Sexta: das 08h às 18h</p>
+                        <p class="txtrua">Sábado: das 08h às 17h</p>
+                        <p class="txtrua">Domingo: Fechado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer> <!-- footer -->
+        <div class="flexfooter">
+        <div class="imgfooter">
+            <img src="/img/logo.png" alt="Clinica dos Pés - Logo" width="100%" >
+        </div>
+       <div>
+            <p><b>Endereço:</b> Planaltina DF<br>
+            <b>CEP:</b> 73.412-123</p> 
+            <p><b>Sac:</b><br>
+            <a style="text-decoration: none; color: black;" href="mailto:clinicadospe@hotmail.com"> clinicadospe@hotmail.com</a></p>
+       </div>
+        <div>
+            <p><b>Horário de funcionamento:</b></p>
+            <p><b>Segunda à Sexta:</b> das 08h às 18h</p>
+            <p><b>Sábado:</b> das 08h às 17h</p>
+            <p><b>Domingo:</b> Fechado</p>
+        </div>
+        <div class="footerMapsInfo">
+            <p><b>Redes Sociais:</b></p>
+            <a href="https://pt-br.facebook.com/clinicadospesdf/"><img src="/img/Icons_Base/facebook.svg" width="10%"></a>
+            <a href="https://api.whatsapp.com/send?phone=5561992103310&text=Seja%20Bem%20Vindo%20a%20Cl%C3%ADnica%20dos%20P%C3%A9s%2C%20sua%20sa%C3%BAde%20%C3%A9%20nossa%20prioridade!"><img src="/img/Icons_Base/whatsapp-final.svg" width="10%" ></a>
+            <a href="https://www.instagram.com/clidospesdf/?hl=pt"><img src="/img/Icons_Base/instagram.svg" width="10%" ></a>
+        </div>
+    </div>
+    </footer>
+
+    </body>
